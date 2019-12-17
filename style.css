@@ -1,0 +1,81 @@
+body {
+	background-color: grey; 
+}
+.grid {
+	display: grid; 
+	background-color: white;	
+	width: 20%;
+	height: 10%; 
+	grid-template-column: 2; 
+	grid-template-row: 2;
+}
+
+.one { 
+	border: 2px solid red; 
+	padding: 1px;
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 1;
+	grid-row-end: 1;
+}
+
+.two {
+	border: 2px solid red; 
+	padding: 1px;
+	grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 1;
+}
+
+.three {
+	border: 2px solid red; 
+	padding: 1px;
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 2;
+	grid-row-end: 2;
+}
+
+.four {
+	border: 2px solid red; 
+	padding: 1px;
+	grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start: 2;
+	grid-row-end: 2;
+} 
+
+.grid2 {
+	display: grid; 
+	background-color: white;
+	border: 2px solid grey; 
+	width: 550px; 
+	height: 430px; 
+	font-size: 60px;
+}
+
+img {
+	width: 400px;
+	height: 240px; 
+}
+
+.grid3 {
+	display: grid;
+	background-color: white;
+	width: 30%;
+	height: 100%;
+	border: 2px solid grey; 
+	float: right;
+	font-size: 80px;
+}
+
+.grid4 {
+	display: grid; 
+	background-color: grey; 
+	width: 100px; 
+	height: 340px; 
+	font-size: 60px;
+}
+
+	
